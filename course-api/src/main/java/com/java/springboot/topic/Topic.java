@@ -1,10 +1,11 @@
-package com.puvan.springboot.topic;
+package com.java.springboot.topic;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
 public class Topic {
+	
 	@Id
 	private String id;
 	private String name;
@@ -14,12 +15,11 @@ public class Topic {
 		
 	}
 	
-	
-	public Topic(String id, String name, String description) {
+	public Topic(String id, String name, String desc) {
 		super();
 		this.id = id;
 		this.name = name;
-		this.description = description;
+		this.description = desc;
 	}
 	public String getId() {
 		return id;
@@ -33,11 +33,13 @@ public class Topic {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getDescription() {
+	public String getDesc() {
 		return description;
 	}
-	public void setDescription(String description) {
-		this.description = description;
+	public void setDesc(String desc) {
+		this.description = desc;
 	}
+	
+	
 
 }

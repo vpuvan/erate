@@ -1,10 +1,10 @@
-package puvan.com.data.springboot;
+package com.java.springboot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CourseApiDataApplicationTests {
+class CourseApiApplicationTests {
 
 	@Test
 	void contextLoads() {
